@@ -84,3 +84,18 @@
     text-decoration: none;
     color: #fff;
 }
+
+.Imagescrolling {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 70%; */
+    max-height: 100%;
+    color: black;
+}
+
+.ScrollImage {
+    height: 400px;
+    max-height: 100%;
+    width: 100%;
+}
