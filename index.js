@@ -6,6 +6,7 @@ let awwalprice = document.getElementById('awwal-price');
 let aalaprice = document.getElementById('aala-price');
 let azeemprice = document.getElementById('azeem-price');
 
+
 let i=1;
 
 setInterval(
@@ -63,3 +64,4 @@ setInterval(
         }
     }, 1000
 )
+
