@@ -35,10 +35,11 @@
 }
 
 .Menu-Item:hover {
-    border: 1px solid black;
+    /* border: 1px solid black;
     border-radius: 10px;
     background-color: darkgray;
-    color:#fff;
+    color:#fff; */
+    border-top: 2px solid black;
 }
 
 .TrackBooking {
