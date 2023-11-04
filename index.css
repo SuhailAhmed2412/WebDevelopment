@@ -60,6 +60,9 @@
 
 .Imagescrolling {
     grid-area: 1 / 2 / 2 / 3; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .definition {
@@ -68,14 +71,14 @@
 
 .whatsappbutton {
     height: 40px;
-    width: 150px;
+    width: auto;
     background-color: lightgreen;
     border-radius: 10px;
 }
 
 .callusbutton {
     height: 40px;
-    width: 150px;
+    width: auto;
     background-color: blue;
     border-radius: 10px;
 }
@@ -85,17 +88,65 @@
     color: #fff;
 }
 
-.Imagescrolling {
+/* .Imagescrolling {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* height: 70%; */
+    width: 50%; 
+} */
+
+.scrollingimage {
+    animation: scrollingImage 8s infinite linear;
     max-height: 100%;
-    color: black;
+    max-width: 100%;
+    height: 100%;
+    border-radius: 10px;
 }
 
-.ScrollImage {
-    height: 400px;
-    max-height: 100%;
-    width: 100%;
+.package-offerings {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    font-size: 40px;
+    color: darkgray;
+}
+
+.PackageContent {
+    display: flex;
+    justify-content: space-evenly;
+    height: auto;
+    padding: 20px;
+}
+
+.contact-section {
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+}
+
+.quick-info {
+    font-size: smaller;
+}
+
+.price {
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 5px;
+    font-weight: bold;
+    display: block;
+    background-color: darkgray;
+    color: #fff;
+}
+
+.cardtext {
+    font-size: small;
+}
+
+.go-to-top {
+    position: fixed;
+    bottom: 20px;
+    left: 30px;
 }

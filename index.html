@@ -8,7 +8,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <script defer src="/index.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;1,100;1,300;1,400;1,500&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
@@ -49,32 +52,62 @@
                     <button class="whatsappbutton"><a href="https://wa.me/whatsapp919538318457" target="_blank" class="contactbutton">Whatsapp Now</a></button>
                 </div>
             </div>
-            <div class="Imagescrolling">
-                <!-- <div class="slider">
-                    <img
-                      id="img-1"
-                      src="./Images/ScrollImage1.jpg"
-                      alt="Image 1"
-                    />
-                    <img
-                      id="img-2"
-                      src="./Images/ScrollImage2.jpeg"
-                      alt="Image 2"
-                    />
-                    <img
-                      id="img-3"
-                      src="./Images/ScrollImage3.jpeg"
-                      alt="Image 3"
-                    />
-                    <img
-                      id="img-4"
-                      src="./Images/ScrollImage4.jpeg"
-                      alt="Image 4"
-                    />
-                </div> -->
+            <div class="Imagescrolling" id="Imagescrolling">
+                <img src="/Images/ScrollImage1.jpg" class="scrollingimage" id="img-1" alt="Image1">
+                <img src="/Images/ScrollImage2.jpeg" class="scrollingimage" id="img-2" alt="Image2">
+                <img src="/Images/ScrollImage3.jpeg" class="scrollingimage" id="img-3" alt="Image3">
+                <img src="/Images/ScrollImage4.jpeg" class="scrollingimage" id="img-4" alt="Image4">
             </div>
         </div>
     </section>
-</body>
+    <section>
+        <div class="package-offerings">
+            Our Package Offerings
+        </div>
+        <div class="PackageContent">
+            <div class="card" style="width: 18rem;">
+                <img src="/Images/Aala.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">AWWAL</h5>
+                  <p class="quick-info">10 Days Duration</p>
+                  <p class="price" id="awwal-price">Starts from <i class="fa-solid fa-indian-rupee-sign"></i>90,000 Per Person</p>
+                  <p class="cardtext"><b>Barakah Al Mawaddah or Similar</b> Hotel in <b>Makkah</b></p>
+                  <p class="cardtext"><b>Durrat Al Madina or Similar</b> Hotel in <b>Madina</b></p>
+                  <a href="#" class="btn btn-primary">View Details</a>
+                  <a href="#" class="btn btn-primary">Book Now</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="/Images/Awwal.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">AALA</h5>
+                  <p class="quick-info">10 Days Duration</p>
+                  <p class="price" id="aala-price">Starts from <i class="fa-solid fa-indian-rupee-sign"></i>1,05,000 Per Person</p>
+                  <p class="cardtext"><b>Barakah Al Mawaddah or Similar</b> Hotel in <b>Makkah</b></p>
+                  <p class="cardtext"><b>Durrat Al Madina or Similar</b> Hotel in <b>Madina</b></p>
+                  <a href="#" class="btn btn-primary">View Details</a>
+                  <a href="#" class="btn btn-primary">Book Now</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="/Images/Aala.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">AZEEM</h5>
+                  <p class="quick-info">10 Days Duration</p>
+                  <p class="price" id="azeem-price">Starts from <i class="fa-solid fa-indian-rupee-sign"></i>1,40,000 Per Person</p>
+                  <p class="cardtext"><b>Barakah Al Mawaddah or Similar</b> Hotel in <b>Makkah</b></p>
+                  <p class="cardtext"><b>Durrat Al Madina or Similar</b> Hotel in <b>Madina</b></p>
+                  <a href="#" class="btn btn-primary">View Details</a>
+                  <a href="#" class="btn btn-primary">Book Now</a>
+                </div>
+            </div>  
+        </div>
+    </section>
+    <div class="contact-section">
+        <button class="whatsappbutton"><a href="https://wa.me/whatsapp919538318457" target="_blank" class="contactbutton">Whatsapp Now</a></button>
+    </div>
+    <div class="go-to-top">
 
+    </div>
+</body>
 </html>
